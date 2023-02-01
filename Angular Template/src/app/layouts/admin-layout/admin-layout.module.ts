@@ -16,6 +16,7 @@ import { IconsComponent } from '../../icons/icons.component';
 import { MapsComponent } from '../../maps/maps.component';
 import { NotificationsComponent } from '../../notifications/notifications.component';
 import { UpgradeComponent } from '../../upgrade/upgrade.component';
+import { CategoryComponent } from '../../category/category.component';
 
 
 @NgModule({
@@ -28,6 +29,7 @@ import { UpgradeComponent } from '../../upgrade/upgrade.component';
   ],
   declarations: [
     HomeComponent,
+    CategoryComponent,
     UserComponent,
     TablesComponent,
     TypographyComponent,

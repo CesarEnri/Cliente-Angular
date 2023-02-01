@@ -8,9 +8,11 @@ import { IconsComponent } from '../../icons/icons.component';
 import { MapsComponent } from '../../maps/maps.component';
 import { NotificationsComponent } from '../../notifications/notifications.component';
 import { UpgradeComponent } from '../../upgrade/upgrade.component';
+import { CategoryComponent } from '../../category/category.component';
 
 export const AdminLayoutRoutes: Routes = [
     { path: 'dashboard',      component: HomeComponent },
+    { path: 'category',       component: CategoryComponent}, 
     { path: 'user',           component: UserComponent },
     { path: 'table',          component: TablesComponent },
     { path: 'typography',     component: TypographyComponent },
